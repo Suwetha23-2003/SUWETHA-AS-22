@@ -1,1 +1,30 @@
----title: "Production Quality Analysis"author: "Suwetha A/P S Raman Naidu"---### Student Profile- **Name:** Suwetha A/P S Raman Naidu- **Matric No:** 241042546- **Programme:** UR6527001---:::: {.columns}::: {.column width="50%"}### Machine 1: P & T Effects#### PartResistance AnalysisBased on ANOVA results for Machine 1:- **Temperature ($T$):** Highly significant ($p < 0.0001$). As temperature increases, resistance decreases significantly.- **Pressure ($P$):** No statistically significant impact on resistance levels ($p = 0.8476$).- **Recommendation:** Engineers should prioritize temperature control to keep PartResistance within specification.:::::: {.column width="50%"}<iframe  data-src='media/plots/m1_final_analysis.html'  width='100%'  height='500px'  style='border:none;'  scrolling='no'></iframe>:::
+---
+title: "Production Quality Analysis"
+author: "Suwetha A/P S Raman Naidu"
+---
+
+### Student Profile
+
+- **Name:** Suwetha A/P S Raman Naidu
+- **Matric No:** 241042546
+- **Programme:** UR6527001
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1: P & T Effects
+#### PartResistance Analysis
+
+Based on ANOVA results for Machine 1:
+
+- **Temperature ($T$):** Highly significant ($p < 0.0001$). As temperature increases, resistance decreases significantly.
+- **Pressure ($P$):** No statistically significant impact on resistance levels ($p = 0.8476$).
+- **Recommendation:** Engineers should prioritize temperature control to keep PartResistance within specification.
+
+:::
+
+::: {.column width="50%"}
+<iframe  data-src='media/plots/m1_final_analysis.html'  width='100%'  height='500px'  style='border:none;'  scrolling='no'></iframe>
+:::
+::::
