@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>slides</title>
+  <meta name="author" content="Suwetha A/P S Raman Naidu">
+  <title>Production Quality Analysis</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -538,38 +539,42 @@
   <div class="reveal">
     <div class="slides">
 
+<section id="title-slide">
+  <h1 class="title">Production Quality Analysis</h1>
+  <p class="author">Suwetha A/P S Raman Naidu</p>
+</section>
 
 <section id="student-profile" class="slide level3">
 <h3>Student Profile</h3>
 <ul>
 <li><strong>Name:</strong> Suwetha A/P S Raman Naidu</li>
 <li><strong>Matric No:</strong> 241042546</li>
-<li><h2 id="programme-ur6527001"><strong>Programme:</strong>
-UR6527001</h2></li>
+<li><strong>Programme:</strong> UR6527001</li>
 </ul>
+</section>
+<section class="slide level3">
+
 </section>
 <div class="columns">
 <div class="column" style="width:50%;">
 <section id="machine-1-p-t-effects" class="slide level3">
 <h3>Machine 1: P &amp; T Effects</h3>
 <h4 id="partresistance-analysis">PartResistance Analysis</h4>
-<p>Analysis of environmental impacts:</p>
+<p>Based on ANOVA results for Machine 1:</p>
 <ul>
 <li><strong>Temperature (<span
-class="math inline">\(T\)</span>):</strong> Has a significant negative
-correlation with resistance. As temperature increases, PartResistance
-decreases significantly.</li>
+class="math inline">\(T\)</span>):</strong> Highly significant (<span
+class="math inline">\(p &lt; 0.0001\)</span>). As temperature increases,
+resistance decreases significantly.</li>
 <li><strong>Pressure (<span class="math inline">\(P\)</span>):</strong>
-Shows no statistically significant impact on the resistance levels for
-this machine.</li>
-<li><strong>Combined Effect:</strong> Temperature is the primary driver
-for quality control on Machine 1.</li>
+No statistically significant impact on resistance levels (<span
+class="math inline">\(p = 0.8476\)</span>).</li>
+<li><strong>Recommendation:</strong> Engineers should prioritize
+temperature control to keep PartResistance within specification.</li>
 </ul>
-<p><strong>Actionable Insight:</strong> Prioritize thermal stabilization
-to keep resistance within the upper specification limit (USL).</p>
 </section>
 </div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/m1_analysis_detailed.html" width="100%" height="500px" style="border:none;" scrolling="no">
+<iframe data-src="media/plots/m1_final_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
 </iframe>
 </div>
 </div>
