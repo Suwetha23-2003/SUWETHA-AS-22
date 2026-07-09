@@ -18,9 +18,9 @@ author: "Suwetha A/P S Raman Naidu"
 
 Based on ANOVA results for Machine 1:
 
-- **Temperature ($T$):** Highly significant ($p < 0.0001$). As temperature increases, resistance decreases significantly.
-- **Pressure ($P$):** No statistically significant impact on resistance levels ($p = 0.8476$).
-- **Recommendation:** Engineers should prioritize temperature control to keep PartResistance within specification.
+- **Temperature ($T$):** Highly significant ($p < 0.0001$). Higher temperatures lead to lower resistance.
+- **Pressure ($P$):** Not significant ($p = 0.8476$).
+- **Recommendation:** Prioritize temperature control to maintain quality.
 :::
 
 ::: {.column width="50%"}
